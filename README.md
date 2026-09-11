@@ -1,2 +1,2 @@
 # is-2026-equipo7-proyecto
-Proyecto Upg Pavel Dominic
+Practica 1 PD

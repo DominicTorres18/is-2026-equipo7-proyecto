@@ -3,7 +3,7 @@
 **Asignatura:** Ingeniería de Software / Integración de Proyectos  
 **Carrera:** Ingeniería en Datos e Inteligencia Artificial  
 **Institución:** Universidad Politécnica de Guanajuato  
-**Integrantes identificados en los documentos:** Dominic Torres Juárez, Eder Nieto Aguilar y Pavel Said Rodríguez Mendoza  
+**Integrantes identificados en los documentos:** Dominic Torres Juárez, Pavel Said Rodríguez Mendoza  
 **Documento maestro:** PORTAFOLIO_ANALISIS_DISENO.md  
 **Unidad:** 2 — Análisis y Diseño
 
@@ -86,7 +86,7 @@ gantt
 
 **R:** Responsable de ejecutar. **A:** Responsable final de la actividad. **C:** Consultado. **I:** Informado.
 
-| Actividad | Dominic | Pavel | Eder |
+| Actividad | Dominic | Pavel |
 |---|---:|---:|---:|
 | Registro de solicitud (HU-01) | R/A | I | C |
 | Interpretación con IA (HU-02) | R/A | I | C |

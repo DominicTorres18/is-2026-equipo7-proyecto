@@ -31,21 +31,23 @@
 
 ---
 
+
 ## 4. Diagrama de Casos de Uso (Mermaid) y Descripción Tabular
 
 ```mermaid
-usecaseDiagram
-actor Carpintero as Usuario
-actor Administrador
+flowchart LR
+    Usuario(["Carpintero"])
+    Administrador(["Administrador"])
 
-package "Sistema CarpintIA" {
-usecase "CU-01: Iniciar Sesión" as CU1
-usecase "CU-02: Ingresar Solicitud en Lenguaje Natural" as CU2
-usecase "CU-03: Consultar Cotización y Desglose" as CU3
-usecase "CU-04: Gestionar Precios y Catálogo" as CU4
-}
+    subgraph Sistema["Sistema CarpintIA"]
+        CU1(["CU-01: Iniciar Sesión"])
+        CU2(["CU-02: Ingresar Solicitud en Lenguaje Natural"])
+        CU3(["CU-03: Consultar Cotización y Desglose"])
+        CU4(["CU-04: Gestionar Precios y Catálogo"])
+    end
 
-Usuario --> CU1
-Usuario --> CU2
-Usuario --> CU3
-Administrador --> CU4
+    Usuario --> CU1
+    Usuario --> CU2
+    Usuario --> CU3
+    Administrador --> CU4
+```

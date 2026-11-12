@@ -1,7 +1,5 @@
 ### 2. Creación del archivo de Base de Datos (`database/schema.sql`)
 
-Crea una carpeta llamada **`database`** en la raíz de tu repositorio, y dentro de ella crea el archivo **`schema.sql`**. Pega el siguiente script DDL adaptado para gestionar usuarios, cotizaciones y catálogos de materiales de CarpintIA:
-
 ```sql
 -- Script DDL de Creación del Esquema Relacional de la Base de Datos (CarpintIA)
 
